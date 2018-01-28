@@ -11,6 +11,7 @@ public class Main {
     static String name = "postgres";
     static String password = "RostGPS";
     static Connection connection = null;
+
     public static void main(String[] args) {
         try {
             Class.forName("org.postgresql.Driver");
